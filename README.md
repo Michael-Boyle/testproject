@@ -7,6 +7,7 @@ any information on:
 except this possibly related issue: https://github.com/spinda/liquidhaskell-cabal/issues/5
 
 ________________________________________________________________________________
+```
 testproject$ stack build --flag testproject:liquidhaskell
 
 Warning: /home/.../testproject/testproject.cabal was modified manually. Ignoring /home/.../testproject/package.yaml in favor of the
@@ -46,3 +47,4 @@ Log files have been written to: /home/.../testproject/.stack-work/logs/
 
     liquid: <command line>: cannot satisfy -package-id testproject-0.1.0.0-66TvLBWRheDCRZYaVOFcgn
         (use -v for more information)
+```
