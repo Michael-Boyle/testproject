@@ -48,3 +48,4 @@ Log files have been written to: /home/.../testproject/.stack-work/logs/
     liquid: <command line>: cannot satisfy -package-id testproject-0.1.0.0-66TvLBWRheDCRZYaVOFcgn
         (use -v for more information)
 ```
+I'm using https://github.com/awakesecurity/liquidhaskell-cabal/ to try and make this work with LTS-10.0
