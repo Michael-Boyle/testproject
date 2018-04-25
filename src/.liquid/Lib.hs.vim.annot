@@ -1,0 +1,4 @@
+1:1-1:1::Lib.$trModule :: "GHC.Types.Module"
+6:1-6:9::Lib.someFunc :: "(GHC.Types.IO ())"
+6:12-6:20::_ :: "{v : [GHC.Types.Char] -> (GHC.Types.IO ()) | v == putStrLn}"
+9:1-9:2::Lib.l :: "{v : GHC.Integer.Type.Integer | v > 5}"
