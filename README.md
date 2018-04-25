@@ -58,4 +58,4 @@ this shouldn't be "SAFE".
 
 If you create an offensive annotation in src/Lib.hs, it is dealt with appropriately.
 
-I'm using https://github.com/awakesecurity/liquidhaskell-cabal/ to try and make this work with LTS-10.0
+I'm using https://github.com/awakesecurity/liquidhaskell-cabal/ to try and make this work with LTS-10.0 (https://github.com/spinda/liquidhaskell-cabal/issues/10)
