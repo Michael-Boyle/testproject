@@ -1,4 +1,4 @@
-Liquid Haskell doesn't check my Main.hs file and I'm not sure why. I can't find
+Liquid Haskell doesn't check the Main.hs file and I'm not sure why. I can't find
 any information on:
 
  "liquid: <command line>: cannot satisfy -package-id testproject-0.1.0.0-66TvLBWRheDCRZYaVOFcgn
@@ -48,6 +48,7 @@ Log files have been written to: /home/.../testproject/.stack-work/logs/
     liquid: <command line>: cannot satisfy -package-id testproject-0.1.0.0-66TvLBWRheDCRZYaVOFcgn
         (use -v for more information)
 ```
+____________________________________________________________________________________________________
 Clearly, due to lines 8 and 9 in app/Main.hs,
 ```
 {-@ i :: {x:Integer | x > 5} @-}
